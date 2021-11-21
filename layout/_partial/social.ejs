@@ -1,0 +1,25 @@
+ <ul class="my-socials">
+  <% for (var i in config.social){
+	if (config.social[i]){ %>
+  <li>
+  	<a href="<%- config.social[i] %>" class="<%= i %>" target="_blank">
+  		<i class="fa fa-<%= i %>"></i>
+  	</a>
+  </li>
+  <% } 
+  } %>
+ <% if (config.email) { %>
+ <li>
+   	<a href="mailto:<%- config.email %>" class="email" target="_blank" title="Email Me" style="background: #708238">
+  		<i class="fa fa-envelope"></i>
+  	</a>
+ </li>
+ <% } %>
+ <% if (config.github) { %>
+ <li>
+   	<a href="<%- config.github %>" class="github" target="_blank" title="My Github">
+  		<i class="fa fa-github"></i>
+  	</a>
+ </li>
+ <% } %>
+</ul>

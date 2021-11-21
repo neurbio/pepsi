@@ -1,0 +1,60 @@
+<header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <div class="logo">
+        <img src="<%-config.root%>logo.png" alt="Profile Picture">
+      </div>
+      <div id="title"><%-config.title%></div>
+      <% if (config.description) {%>
+        <div id="description"><%- config.description %></div>
+      <% } %>
+      <% if (config.subtitle) {%>
+        <div id="subtitle"><%- config.subtitle %></div>
+      <% } %>
+      <%- partial('_partial/social') %>
+    </div>
+  </div>
+  
+  <div id="header-inner" class="">
+    <nav id="main-nav">
+      <a id="main-nav-toggle" class="nav-icon"></a>
+    </nav>
+
+    <nav id="title-nav" style="display:none">
+      <a href="<%- url_for() %>"><%= config.title %></a>
+      <img src="<%-config.root%>logo.png" alt="Profile Picture">
+    </nav>
+
+    <nav id="sub-nav">
+      <% if (theme.rss){ %>
+        <a id="nav-rss-link" class="nav-icon" class="fa fa-envelope" href="<%- theme.rss %>" title="RSS Feed"></a>
+      <% } %>
+      <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      <a id="nav-dark-btn" class="nav-icon" title="Dark/Light"></a>
+    </nav>
+
+    <div id="search-form-wrap">
+      <form class="search-form">
+        <input type="text" class="st-default-search-input" placeholder="<%- __('search') %>">
+        <input type="submit" value="" class="search-form-submit">
+      </form>
+    </div>
+  </div>
+
+  <div class="site-nav" style="display: none;">
+    <ul>
+      <% if (site.data.menu != undefined) {%>
+
+        <% for (var i in site.data.menu){ %>
+          <li><a href="<%- url_for(site.data.menu[i]) %>"><%= i %></a></li>
+        <% } %>
+
+        <% } else { %>
+      <% for (var i in theme.menu){ %>
+        <li><a href="<%- url_for(theme.menu[i]) %>"><%= i %></a></li>
+      <% } %>
+      <% } %>
+    </ul>
+  </div>
+</header>
