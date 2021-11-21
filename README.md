@@ -16,7 +16,7 @@ hexo theme for resume
 ## 安装
 
 ``` bash
-$ git clone https://github.com/
+$ git clone https://github.com/neurbio/pepsi.git themes/pepsi
 ```
 **需要 Hexo 2.7 及以上版本.**
 
