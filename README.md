@@ -8,6 +8,7 @@ hexo theme for resume
 根据[oishi](http://henryhuang.github.io/oishi/)主题进行修改。主要是精简了做简历时用不到的功能，添加了首页toc，站内搜索，darkmode。
 
 > 为什么取名pepsi？因为上好佳要配百事可乐嘛。
+> and i like the note "powered by pepsi" on footer which kinda the truth
 > 
 ## 演示
 
