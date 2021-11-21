@@ -26,11 +26,8 @@ $ git clone https://github.com/neurbio/pepsi.git themes/pepsi
 
 ## 更新
 
-``` bash
-cd themes/pepsi
-git pull
-```
-
+> if needed
+> 
 ## 配置
 
 [_config.yml](_config.yml)
