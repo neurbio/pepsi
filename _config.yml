@@ -21,7 +21,7 @@ widgets:
 - links
 
 # Links
-links: xydbcs.github.io
+links:
 
 # Cursor effect
 cursor_effect: fireworks
