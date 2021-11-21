@@ -1,5 +1,5 @@
 # pepsi
-hexo theme for resume
+A Hexo Theme for Resume
 
 老婆即将博士毕业，想要一个网页的 Resume。本来想找个成熟简洁大方明了的主题填填内容搞定，发现大部分theme都是为了blog设计，做简历不太合适；几个简历tag的theme又略显简陋。
 
