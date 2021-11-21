@@ -1,0 +1,40 @@
+# Header
+menu:
+  Home: /
+  Publications: /Publications
+
+# Content
+excerpt_link: ......
+fancybox: false
+
+#toc
+toc: false
+
+# Sidebar
+sidebar: 
+widgets:
+- category
+- tag
+- tagcloud
+- archive
+- recent_posts
+- links
+
+# Links
+links: xydbcs.github.io
+
+# Cursor effect
+cursor_effect: fireworks
+
+# Miscellaneous
+google_analytics:
+favicon: /images/favicon_32.ico
+twitter: 
+google_plus:
+fb_admins: 
+fb_app_id:
+  
+# scrollUp 样式
+scrollUp: image
+
+author: Ka. Jiang
